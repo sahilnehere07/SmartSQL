@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# vercel
+.vercel/
+
+# node (if you later add a build step)
+node_modules/
+
+# evaluation output
+evaluation/results_*.json
+
+# os/editor
+.DS_Store
+.vscode/

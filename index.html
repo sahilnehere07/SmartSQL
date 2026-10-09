@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartSQL — Ambiguity-Aware Text-to-SQL Assistant</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>SmartSQL</h1>
+      <p class="subtitle">Ambiguity-Aware Text-to-SQL Assistant</p>
+    </header>
+
+    <section class="chat" id="chat"></section>
+
+    <form id="ask-form" class="ask-form">
+      <input
+        id="question-input"
+        type="text"
+        placeholder="Ask a question about your business data..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="ask-button">Ask</button>
+    </form>
+
+    <p class="examples">
+      Try: "How many customers signed up last month?" ·
+      "Who was the best customer last month?" ·
+      "Show me John's orders."
+    </p>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
