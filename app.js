@@ -4,7 +4,7 @@ const input = document.getElementById("question-input");
 const button = document.getElementById("ask-button");
 
 // Flask backend
-const API_BASE = "http://127.0.0.1:5000";
+const API_BASE = "";
 
 // Holds state while we're waiting on a clarification answer
 let pendingClarification = null; // { originalQuestion, clarificationQuestion }
