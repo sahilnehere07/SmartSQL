@@ -1,4 +1,4 @@
--- Auto-generated synthetic sample data. Run AFTER schema.sql.
+﻿-- Auto-generated synthetic sample data. Run AFTER schema.sql.
 -- Regenerate with: python database/generate_seed.py
 
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (1, 'John Iyer', 'john.iyer1@example.com', '2025-11-27', 'Mumbai');
@@ -19,11 +19,11 @@ INSERT INTO customers (id, name, email, signup_date, city) VALUES (15, 'Karan Re
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (16, 'Simran Chowdhury', 'simran.chowdhury16@example.com', '2025-10-23', 'Jaipur');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (17, 'Aditya Fernandes', 'aditya.fernandes17@example.com', '2025-12-03', 'Kolkata');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (18, 'Pooja Patel', 'pooja.patel18@example.com', '2026-07-10', 'Hyderabad');
-INSERT INTO customers (id, name, email, signup_date, city) VALUES (19, 'Yusuf D''Souza', 'yusuf.d'souza19@example.com', '2026-08-18', 'Chennai');
+INSERT INTO customers (id, name, email, signup_date, city) VALUES (19, 'Yusuf D''Souza', 'yusuf.d''souza19@example.com', '2026-08-18', 'Chennai');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (20, 'Ananya Rao', 'ananya.rao20@example.com', '2026-01-07', 'Delhi');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (21, 'Farhan Smith', 'farhan.smith21@example.com', '2026-09-04', 'Pune');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (22, 'Ritika Chowdhury', 'ritika.chowdhury22@example.com', '2026-02-26', 'Delhi');
-INSERT INTO customers (id, name, email, signup_date, city) VALUES (23, 'Dev D''Souza', 'dev.d'souza23@example.com', '2026-01-28', 'Delhi');
+INSERT INTO customers (id, name, email, signup_date, city) VALUES (23, 'Dev D''Souza', 'dev.d''souza23@example.com', '2026-01-28', 'Delhi');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (24, 'Lisa Mehta', 'lisa.mehta24@example.com', '2026-02-20', 'Jaipur');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (25, 'Omar Iyer', 'omar.iyer25@example.com', '2026-04-05', 'Bengaluru');
 INSERT INTO customers (id, name, email, signup_date, city) VALUES (26, 'Tanya Reddy', 'tanya.reddy26@example.com', '2026-03-31', 'Pune');
