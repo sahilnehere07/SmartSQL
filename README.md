@@ -4,6 +4,8 @@ SmartSQL is a natural-language interface for querying an e-commerce database usi
 
 The key idea behind SmartSQL is simple: when a question has multiple reasonable interpretations, the system asks the user to clarify their intent instead of silently guessing.
 
+**Live Demo:** https://smartsql-five.vercel.app
+
 ## Problem Statement
 
 Natural-language questions do not always have a single interpretation.
